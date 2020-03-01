@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-color: #42455a;
+    color: #fff;
+}
+
+.subtitle {
+    font-size: 35px;
+    color: magenta;
+    font-weight: 200;
+}
+
+.pre-paragraph {
+    color: rgb(252, 162, 247);
+}
+
+.menu ul {
+    display: inline-flex;
+    margin: 20px;
+}
+
+.menu ul li {
+    list-style: none;
+    margin: 20px;
+    color: #b2b2b1;
+    cursor: pointer;
+}
+
+.logo {
+    width: 30px;
+    margin-top: -7px;
+    margin-right: 48px;
+}
+
+.header {}
+
+.vector_ohm {
+    width: 50%;
+    float: left;
+}
