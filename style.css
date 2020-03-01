@@ -10,15 +10,21 @@
     font-size: 35px;
     color: magenta;
     font-weight: 200;
+    padding: 25px;
 }
 
 .pre-paragraph {
     color: rgb(252, 162, 247);
+    padding-left: 25px;
+}
+
+.paragraph {
+    padding: 25px;
 }
 
 .menu ul {
     display: inline-flex;
-    margin: 20px;
+    margin: 25px;
 }
 
 .menu ul li {
@@ -28,15 +34,43 @@
     cursor: pointer;
 }
 
+.signup-btn {
+    top: 40px;
+    right: 80px;
+    position: absolute;
+    text-decoration: none;
+    color: #fff;
+    border: 2px solid transparent;
+    border-radius: 20px;
+    background-image: linear-gradient(#42455a, #42455a), radial-gradient(circle at top left, #fd00da, #19d7f8);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+}
+
+.signup-btn span {
+    display: block;
+    padding: 8px 22px;
+}
+
 .logo {
     width: 30px;
     margin-top: -7px;
-    margin-right: 48px;
+    margin-left: 20px;
 }
 
-.header {}
+.banner {
+    width: 80%;
+    height: 70%;
+    position: absolute;
+    color: #fff;
+}
+
+.header {
+    width: 60%;
+    float: right;
+}
 
 .vector_ohm {
-    width: 50%;
+    width: 60%;
     float: left;
 }
