@@ -6,6 +6,10 @@
     color: #fff;
 }
 
+.name{
+   color: cyan;
+}
+
 .subtitle {
     font-size: 35px;
     color: magenta;
@@ -22,19 +26,33 @@
     padding: 25px;
 }
 
+.paragraph ul{
+    padding: 25px;
+}
+
+.menu{
+    
+    bottom: 0;
+    width: 100%;
+    
+  
+}
+
 .menu ul {
     display: inline-flex;
-    margin: 25px;
+    margin: 25px; /* da margen entre pantalla y listado*/
+    
 }
 
 .menu ul li {
-    list-style: none;
-    margin: 20px;
-    color: #b2b2b1;
+    list-style: none; 
+    margin: 20px; /* da margen entre cada elemento del listado*/
+    color: #fff;
     cursor: pointer;
 }
 
 .signup-btn {
+    
     top: 40px;
     right: 80px;
     position: absolute;
@@ -65,6 +83,15 @@
     color: #fff;
 }
 
+
+/*
+.no_banner{
+    
+    position: relative;
+    
+
+}*/
+
 .header {
     width: 60%;
     float: right;
@@ -73,4 +100,22 @@
 .vector_ohm {
     width: 60%;
     float: left;
+    padding-left: 30px;
+    position: relative;
 }
+
+
+
+.vector_git{
+    width: 1;
+    height: 1;
+    float: right;
+    max-width: 100px;
+}
+
+.vector_linkedin{
+    max-width: 150px;
+    float: right;
+
+}
+
