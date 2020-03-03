@@ -1,3 +1,6 @@
+
+/*general*/
+
 * {
     margin: 0;
     padding: 0;
@@ -5,6 +8,9 @@
     background-color: #42455a;
     color: #fff;
 }
+
+
+/*textos*/
 
 .name{
    color: cyan;
@@ -30,6 +36,9 @@
     padding: 25px;
 }
 
+
+/*menu on top*/
+
 .menu{
     
     bottom: 0;
@@ -51,6 +60,14 @@
     cursor: pointer;
 }
 
+.logo {
+    width: 30px;
+    margin-top: -7px;
+    margin-left: 20px;
+}
+
+/*bottom contacta*/
+
 .signup-btn {
     
     top: 40px;
@@ -70,27 +87,17 @@
     padding: 8px 22px;
 }
 
-.logo {
-    width: 30px;
-    margin-top: -7px;
-    margin-left: 20px;
-}
+
+/*banner, header links and vector ohm*/
 
 .banner {
     width: 80%;
     height: 70%;
     position: absolute;
     color: #fff;
+    justify-content: flex-end;
 }
 
-
-/*
-.no_banner{
-    
-    position: relative;
-    
-
-}*/
 
 .header {
     width: 60%;
