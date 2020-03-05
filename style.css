@@ -1,83 +1,56 @@
 
-/*general*/
+/*GENERAL*/
 
 * {
     margin: 0;
     padding: 0;
     font-family: sans-serif;
-    background-color: #42455a;
-    color: #fff;
+    color: black;
 }
 
+/*NAVBAR*/
 
-/*textos*/
-
-.name{
-   color: cyan;
-}
-
-.subtitle {
-    font-size: 35px;
-    color: magenta;
-    font-weight: 200;
-    padding: 25px;
-}
-
-.pre-paragraph {
-    color: rgb(252, 162, 247);
-    padding-left: 2px;
-}
-
-.paragraph {
-    padding: 25px;
-}
-
-.paragraph ul{
-    padding: 25px;
-}
-
-
-/*menu on top*/
-
-.menu{
-    
-    bottom: 0;
-    width: 100%;
-    
+/* Add a black background color to the top navigation */
+.topnav {
+   
+    overflow: hidden;
+  }
   
-}
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
 
-.menu ul {
-    display: inline-flex;
-    margin: 25px; /* da margen entre pantalla y listado*/
-    
-}
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-image: linear-gradient(magenta, cyan);
+    color: white;
+  }
 
-.menu ul li {
-    list-style: none; 
-    margin: 20px; /* da margen entre cada elemento del listado*/
-    color: #fff;
-    cursor: pointer;
-}
-
-.logo {
-    width: 30px;
-    margin-top: -7px;
-    margin-left: 20px;
-}
 
 /*bottom contacta*/
 
 .signup-btn {
     
-    top: 40px;
+    top: 20px;
     right: 80px;
     position: absolute;
     text-decoration: none;
     color: #fff;
     border: 2px solid transparent;
-    border-radius: 20px;
-    background-image: linear-gradient(#42455a, #42455a), radial-gradient(circle at top left, #fd00da, #19d7f8);
+    border-radius: 40px;
+    background-image: linear-gradient(#fff,#fff), radial-gradient(circle at top left, #fd00da, #19d7f8);
     background-origin: border-box;
     background-clip: content-box, border-box;
 }
@@ -85,24 +58,42 @@
 .signup-btn span {
     display: block;
     padding: 8px 22px;
+    font-weight: 550;
+
 }
 
 
-/*banner, header links and vector ohm*/
+/*MAIN CONTAINER*/
 
-.banner {
-    width: 80%;
-    height: 70%;
+.header{
+   
+    background-color: black;
+    padding-top: 100px;
+    height: 100%;
+    width: 100%;
     position: absolute;
-    color: #fff;
-    justify-content: flex-end;
 }
 
-
-.header {
-    width: 60%;
-    float: right;
+.name{
+    color: white;
+    padding-bottom: 25px;
+    text-align: center;
+    
 }
+
+.engineer{
+    color: white;
+    text-align: center;
+}
+
+.find_me{
+    color: white;
+    padding-top: 150px;
+    padding-left: 500px;
+    padding-bottom: 25px ;
+}
+
+/*vectors illustrator*/
 
 .vector_ohm {
     width: 60%;
@@ -111,18 +102,16 @@
     position: relative;
 }
 
-
-
 .vector_git{
     width: 1;
     height: 1;
-    float: right;
     max-width: 100px;
+    padding-left: 350px;
 }
 
 .vector_linkedin{
     max-width: 150px;
-    float: right;
+    padding-left: 50px;
 
 }
 
