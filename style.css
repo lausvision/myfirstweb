@@ -39,42 +39,36 @@
   }
 
 
-/*bottom contacta*/
-
-.signup-btn {
-    
-    top: 20px;
-    right: 80px;
-    position: absolute;
-    text-decoration: none;
-    color: #fff;
-    border: 2px solid transparent;
-    border-radius: 40px;
-    background-image: linear-gradient(#fff,#fff), radial-gradient(circle at top left, #fd00da, #19d7f8);
-    background-origin: border-box;
-    background-clip: content-box, border-box;
-}
-
-.signup-btn span {
-    display: block;
-    padding: 8px 22px;
-    font-weight: 550;
-
-}
-
 
 /*MAIN CONTAINER*/
 
-.header{
+.main{
    
     background-color: black;
-    padding-top: 100px;
     height: 100%;
     width: 100%;
     position: absolute;
 }
 
+.subtitle{
+    color: magenta;
+    padding-left: 50px;
+    font-size: 50px;
+    padding-bottom: 25px;
+    padding-top: 50px;
+    
+}
+
+.paragraph{
+    color: white;
+    padding-left: 50px;
+    font-size: 25px;
+}
+
+/*INDEX*/
+
 .name{
+    padding-top: 150px;
     color: white;
     padding-bottom: 25px;
     text-align: center;
@@ -89,11 +83,32 @@
 .find_me{
     color: white;
     padding-top: 150px;
-    padding-left: 500px;
+    padding-left: 450px;
     padding-bottom: 25px ;
 }
 
-/*vectors illustrator*/
+.vector_git{
+    width: 1;
+    height: 1;
+    max-width: 100px;
+    padding-left: 300px;
+}
+
+.vector_linkedin{
+    max-width: 150px;
+    padding-left: 50px;
+
+}
+
+/*QUIEN SOY*/
+
+
+.yo{
+
+    width: 400px;
+    padding-left: 50px;
+   
+}
 
 .vector_ohm {
     width: 60%;
@@ -102,16 +117,5 @@
     position: relative;
 }
 
-.vector_git{
-    width: 1;
-    height: 1;
-    max-width: 100px;
-    padding-left: 350px;
-}
 
-.vector_linkedin{
-    max-width: 150px;
-    padding-left: 50px;
-
-}
 
