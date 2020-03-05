@@ -146,4 +146,18 @@
     padding-top: 25px;
 }
 
+/*APTITUDES / DEBILIDADES*/
+
+ul li{
+    color: white;
+    padding-left: 70px;
+    font-size: 22px;
+}
+
+ul {
+    list-style-type: upper-alpha;
+    margin: 0;
+    padding: 0;
+    color: white;
+  }
 
