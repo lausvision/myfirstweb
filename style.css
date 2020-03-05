@@ -108,12 +108,6 @@
     padding-right: 150px;
 }
 
-.vector_ohm {
-    width: 60%;
-    float: left;
-    padding-left: 30px;
-    position: relative;
-}
 
 /*FORMACION ACADEMICA*/
 
@@ -159,3 +153,17 @@ ul {
     color: white;
   }
 
+/*CONTACTA*/
+
+.mail{
+    color: white;
+    font-size: 25px;
+    padding-left: 600px;
+    padding-bottom: 40px;
+
+
+}
+
+.vector_ohm {
+  width: 450;
+}
