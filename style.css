@@ -34,7 +34,7 @@
   
   /* Add a color to the active/current link */
   .topnav a.active {
-    background-image: linear-gradient(magenta, cyan);
+    background-image: linear-gradient(#bdc3c7, #2c3e50);
     color: white;
   }
 
@@ -44,14 +44,14 @@
 
 .main{
    
-    background-color: black;
+    background-color: #18222b;
     height: 100%;
     width: 100%;
     position: absolute;
 }
 
 .subtitle{
-    color: magenta;
+    color: rgb(228, 237, 248);
     padding-left: 50px;
     font-size: 50px;
     padding-bottom: 25px;
@@ -76,9 +76,10 @@
     
 }
 
-.engineer{
+.sub_header{
     color: white;
     text-align: center;
+    padding-top: 20px;
 }
 
 .find_me{
@@ -131,7 +132,7 @@
 }
 
 .pre-paragraph{
-    color: cyan;
+    color: rgb(255, 173, 96);
     font-size: 20px;
     text-align: center;
     padding-bottom: 5px;
