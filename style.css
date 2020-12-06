@@ -128,13 +128,13 @@
 
 .li_paragraph{
     color: white;
-    text-align: center;
+    text-align: start;
 }
 
 .pre-paragraph{
     color: rgb(255, 173, 96);
     font-size: 20px;
-    text-align: center;
+    text-align: start;
     padding-bottom: 5px;
 }
 
